@@ -219,3 +219,29 @@ nav{
     }
 
 }
+
+@media (max-height: 790px) {
+    /* الأنماط التي سيتم تطبيقها عندما يكون عرض الشاشة أقل من أو يساوي 768px */
+    .icn {
+        scale: .5;
+    }
+
+    .me {
+        width:400px ;
+        translate: 0 -50px;
+    }
+    #title{
+        font-size: 5rem;
+    }
+    #about{
+        font-size: 12px;
+    }
+    .hero p{
+        font-size: 20px;
+    }
+    .arrow{
+        width: 50px;
+        scale: .7;
+    }
+
+}
